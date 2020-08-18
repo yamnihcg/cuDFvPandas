@@ -6,3 +6,11 @@ What do self-driving cars, recommender systems, and spam filters have in common?
 
 In response to this clear need, NVIDIA released cuDF, a GPU-based DataFrame library. Since cuDF and pandas have identical syntax (refer to graphic below), it is very easy for data scientists and engineers to adapt to this new library. In order to demonstrate cuDF’s computational advantage, we have developed a tool that automatically benchmarks the time(s) that cuDF and pandas take for common DataFrame operations. The data we are using for this tool is from the New York City taxi dataset, divided into month by month chunks. This is done in 2 formats, a Command Line Interface (CLI) and a Jupyter Notebook. 
 
+## Prerequisites
+
+To proceed to the next steps, these instructions that you have the following already installed:
+GPU: NVIDIA Pascal™ or better with compute capability 6.0+
+CUDA version 10.0+ (with NVIDIA drivers)
+OS: Ubuntu 16.04/18.04 
+Docker CE v19.03+ and nvidia-container-toolkit (if using docker container)
+
