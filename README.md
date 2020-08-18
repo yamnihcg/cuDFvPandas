@@ -29,6 +29,8 @@ To proceed to the next steps, these instructions that you have the following alr
 
 3. Once in the docker container, navigate to the outermost directory (using cd ..) and then run bash /rapids/utils/start_jupyter.sh (refer to image below)
 
+![Docker Command](https://github.com/yamnihcg/cuDFvPandas/blob/master/docker_container_example_run.PNG)
+
 4. Visit localhost:8888 or (ip address of your VM):8888 in your browser. An instance of JupyterLab should show up.
 
 5. Click Terminal (under other). In the Terminal window, install the gcsfs python package using pip install gcsfs. If other packages used in the tool are missing as its run, use pip install (packagename) to install those packages (this is highly unlikely though). 
