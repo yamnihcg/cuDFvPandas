@@ -9,6 +9,8 @@ In response to this clear need, NVIDIA released cuDF, a GPU-based DataFrame libr
 ## Prerequisites
 
 To proceed to the next steps, these instructions that you have the following already installed: <br />
+
+
 **GPU:** NVIDIA Pascal™ or better with compute capability 6.0+ <br /> 
 **CUDA:** Version 10.0+ (with NVIDIA drivers) <br /> 
 **OS:** Ubuntu 16.04/18.04 <br /> 
