@@ -43,6 +43,8 @@ To proceed to the next steps, these instructions that you have the following alr
 
 3. Before running the benchmarking tool, two parameters are required. These are the number of months of data you want to look at and the operation that you want to benchmark against. **The number of months of data can be anywhere from 1 month to 36 months.** The operations are represented in shorthand notation below:
 
+<center>
+
 | Notation | Description |
 |:------:|:------:|
 | af | Apply numerical function on a column  |
@@ -58,6 +60,8 @@ To proceed to the next steps, these instructions that you have the following alr
 | fnv  | Fill null (missing) values in DataFrame |
 | merge | Perform an inner join on two DataFrames |
 | all | Perform all operations above (w/ the exception of cdf) |
+
+</center>
 
 
 4. Run the following command in your terminal. (months) and (operation) are the months and operation you decided on in the previous step. 
