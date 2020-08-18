@@ -35,3 +35,14 @@ To proceed to the next steps, these instructions that you have the following alr
 
 5. Click Terminal (under other). In the Terminal window, install the gcsfs python package using pip install gcsfs. If other packages used in the tool are missing as its run, use pip install (packagename) to install those packages (this is highly unlikely though). 
 
+## Running the Tool - Command Line (CLI) 
+
+1. From (source here), download the files cudf_benchmarking_v2.py, load_data_v2.py, and rcid_to_meaning.csv. On the left hand side of the JupyterLab window, there is a menu of files. Drag them into the same folder / directory in JupyterLab.
+
+2. Open a Terminal window in JupyterLab by navigating to the menu bar at the top and selecting File → New → Terminal.
+
+3. Before running the benchmarking tool, two parameters are required. These are the number of months of data you want to look at and the operation that you want to benchmark against. The number of months of data can be anywhere from 1 month to 36 months. The operations are represented in shorthand notation below:
+
+
+
+
