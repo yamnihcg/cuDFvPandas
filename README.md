@@ -16,3 +16,13 @@ To proceed to the next steps, these instructions that you have the following alr
 **OS:** Ubuntu 16.04/18.04 <br /> 
 **Docker:** Docker CE v19.03+ and nvidia-container-toolkit (if using docker container) <br /> 
 
+## Start RAPIDS Docker Container 
+
+Go to https://rapids.ai/start.html and scroll down to the RAPIDS release selector <br />
+**Method:** select Docker + Examples <br />
+**Release:** select Stable Release <br />
+**Packages:** select All Packages or cuDF <br />
+**Linux:** Run lsb_release -a to find out your computer or VM’s Ubuntu version. <br />
+**Python / CUDA:** Select the versions on your computer or VM <br />
+
+
