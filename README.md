@@ -9,8 +9,8 @@ In response to this clear need, NVIDIA released cuDF, a GPU-based DataFrame libr
 ## Prerequisites
 
 To proceed to the next steps, these instructions that you have the following already installed:
-GPU: NVIDIA Pascal™ or better with compute capability 6.0+
-CUDA version 10.0+ (with NVIDIA drivers)
-OS: Ubuntu 16.04/18.04 
-Docker CE v19.03+ and nvidia-container-toolkit (if using docker container)
+**GPU:** NVIDIA Pascal™ or better with compute capability 6.0+
+**CUDA:** Version 10.0+ (with NVIDIA drivers)
+**OS:** Ubuntu 16.04/18.04 
+**Docker:** Docker CE v19.03+ and nvidia-container-toolkit (if using docker container)
 
