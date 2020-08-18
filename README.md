@@ -18,11 +18,18 @@ To proceed to the next steps, these instructions that you have the following alr
 
 ## Start RAPIDS Docker Container 
 
-Go to https://rapids.ai/start.html and scroll down to the RAPIDS release selector <br />
+1. Go to https://rapids.ai/start.html and scroll down to the RAPIDS release selector <br />
 **Method:** select Docker + Examples <br />
 **Release:** select Stable Release <br />
 **Packages:** select All Packages or cuDF <br />
 **Linux:** Run lsb_release -a to find out your computer or VM’s Ubuntu version. <br />
 **Python / CUDA:** Select the versions on your computer or VM <br />
 
+2. Copy the command generated from the RAPIDS release selector into the terminal in order to build your Docker container (refer to image below)
+
+3. Once in the docker container, navigate to the outermost directory (using cd ..) and then run bash /rapids/utils/start_jupyter.sh (refer to image below)
+
+4. Visit localhost:8888 or (ip address of your VM):8888 in your browser. An instance of JupyterLab should show up.
+
+5. Click Terminal (under other). In the Terminal window, install the gcsfs python package using pip install gcsfs. If other packages used in the tool are missing as its run, use pip install (packagename) to install those packages (this is highly unlikely though). 
 
