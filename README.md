@@ -84,13 +84,16 @@ python cudf_benchmarking_v2.py -num_months (months) -operation (operation)
 
 As an example, lets run the benchmarking tool on 1 Month of taxi data (~2 GB) and look at how all of the operations perform. 
 
+**CLI**
 Using the CLI, the command would look like:
 
 ```
 python cudf_benchmarking_v2.py -num_months 1 -operation all
 ```
-
+**Jupyter Notebook**
 In the Jupyter Notebook, set num_months = 1 and operation = 'all' in the appropriate cell (refer to Step 3 in Running the Tool - Jupyter Notebook)
+
+
 
 
 
