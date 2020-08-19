@@ -41,12 +41,10 @@ To proceed to the next steps, these instructions that you have the following alr
 
 2. Open a Terminal window in JupyterLab by navigating to the menu bar at the top and selecting File → New → Terminal.
 
-3. Before running the benchmarking tool, two parameters are required. These are the number of months of data you want to look at and the operation that you want to benchmark against. **The number of months of data can be anywhere from 1 month to 36 months.** The operations are represented in shorthand notation below:
-
-<center>
+3. Before running the benchmarking tool, two parameters are required. These are the number of months of data you want to look at and the operation that you want to benchmark against. The number of months of data can be anywhere from 1 month to 36 months. The operations are represented in shorthand notation below:
 
 | Notation | Description |
-|:------:|:------:|
+|------|------|
 | af | Apply numerical function on a column  |
 | aggfunc  | Apply aggregate function on a column |
 | gb | Group by category + Apply Aggregate function |
@@ -61,13 +59,18 @@ To proceed to the next steps, these instructions that you have the following alr
 | merge | Perform an inner join on two DataFrames |
 | all | Perform all operations above (w/ the exception of cdf) |
 
-</center>
-
-
 4. Run the following command in your terminal. (months) and (operation) are the months and operation you decided on in the previous step. 
 python cudf_benchmarking_v2.py -num_months (months) -operation (operation)
 
 5. After running the command, the results show up on the command line. If you entered ‘all’ for the operation, visualizations are also generated. The image filenames of the visualizations as well as what each visualization contains is on the next page: 
+
+| Notation | Description |
+|------|------|
+| af | Apply numerical function on a column  |
+| aggfunc  | Apply aggregate function on a column |
+| gb | Group by category + Apply Aggregate function |
+| gt5 | Sort rows based on column value |
+
 
 
 
