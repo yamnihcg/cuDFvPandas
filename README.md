@@ -64,15 +64,8 @@ python cudf_benchmarking_v2.py -num_months (months) -operation (operation)
 
 5. After running the command, the results show up on the command line. If you entered ‘all’ for the operation, visualizations are also generated. The image filenames of the visualizations as well as what each visualization contains is on the next page: 
 
-| Notation | Description |
+| Filename | Visualization |
 |------|------|
-| af | Apply numerical function on a column  |
-| aggfunc  | Apply aggregate function on a column |
-| gb | Group by category + Apply Aggregate function |
-| gt5 | Sort rows based on column value |
-
-
-
-
-
-
+| cudf_vs_pandas_p1.png | This visualization is a double bar chart that compares the time it takes for less intensive DataFrame operations to finish in pandas versus cuDF. |
+| cudf_vs_pandas_p2.png | This visualization is a double bar chart that compares the time it takes for more intensive DataFrame operations to finish in pandas versus cuDF. |
+| speedups.png | This visualization is a bar chart that looks at how many times faster cuDF is (as compared to pandas) for a given operation. |
