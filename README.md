@@ -78,6 +78,8 @@ python cudf_benchmarking_v2.py -num_months (months) -operation (operation)
 
 3. In this cell (image below) enter the number of months of data and the operation you want to benchmark against. Refer to the Running the Tool - Command Line (CLI) section to double check that your inputs are valid.
 
+![Enter Benchmarking Info](https://github.com/yamnihcg/cuDFvPandas/blob/master/enter_benchmarking_info.PNG)
+
 
 
 
