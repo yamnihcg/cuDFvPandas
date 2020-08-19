@@ -69,3 +69,15 @@ python cudf_benchmarking_v2.py -num_months (months) -operation (operation)
 | cudf_vs_pandas_p1.png | This visualization is a double bar chart that compares the time it takes for less intensive DataFrame operations to finish in pandas versus cuDF. |
 | cudf_vs_pandas_p2.png | This visualization is a double bar chart that compares the time it takes for more intensive DataFrame operations to finish in pandas versus cuDF. |
 | speedups.png | This visualization is a bar chart that looks at how many times faster cuDF is (as compared to pandas) for a given operation. |
+
+## Running the Tool - Jupyter Notebook
+
+1. From this repository, download the notebook cudf_vs_pandas.ipynb. Drag the file into the files menu (on the left side of the interface) in JupyterLab.
+
+2. Open up the file by double clicking on the file name. Run each cell by pressing the ▷ button in the menu inside the notebook. Do this until the “Loading the Data for Benchmarking” section. This is necessary because running each cell ensures that the functions that are used for benchmarking are in the program’s memory. 
+
+3. In this cell (image below) enter the number of months of data and the operation you want to benchmark against. Refer to the Running the Tool - Command Line (CLI) section to double check that your inputs are valid.
+
+
+
+
