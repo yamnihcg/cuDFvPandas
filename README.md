@@ -72,7 +72,7 @@ python cudf_benchmarking_v2.py -num_months (months) -operation (operation)
 
 ## Running the Tool - Jupyter Notebook
 
-1. From this repository, download the notebook cudf_vs_pandas.ipynb. Drag the file into the files menu (on the left side of the interface) in JupyterLab.
+1. From this repository, download the notebook cudf_vs_pandas_benchmarking.ipynb. Drag the file into the files menu (on the left side of the interface) in JupyterLab.
 
 2. Open up the file by double clicking on the file name. Run each cell by pressing the ▷ button in the menu inside the notebook. Do this until the “Loading the Data for Benchmarking” section. This is necessary because running each cell ensures that the functions that are used for benchmarking are in the program’s memory. 
 
