@@ -80,6 +80,15 @@ python cudf_benchmarking_v2.py -num_months (months) -operation (operation)
 
 ![Enter Benchmarking Info](https://github.com/yamnihcg/cuDFvPandas/blob/master/enter_benchmarking_info.PNG)
 
+## Example Output - 1 Month of Data 
+
+As an example, lets run the benchmarking tool on 1 Month of taxi data (~2 GB) and look at how all of the operations perform. 
+
+Using the CLI, the command would look like:
+
+'''python
+python cudf_benchmarking_v2.py -num_months 1 -operation all
+'''
 
 
 
