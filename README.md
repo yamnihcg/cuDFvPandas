@@ -86,9 +86,9 @@ As an example, lets run the benchmarking tool on 1 Month of taxi data (~2 GB) an
 
 Using the CLI, the command would look like:
 
-'''
+```
 python cudf_benchmarking_v2.py -num_months 1 -operation all
-'''
+```
 
 
 
