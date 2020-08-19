@@ -94,7 +94,7 @@ python cudf_benchmarking_v2.py -num_months 1 -operation all
 **Jupyter Notebook** <br />
 In the Jupyter Notebook, set num_months = 1 and operation = 'all' in the appropriate cell (refer to Step 3 in Running the Tool - Jupyter Notebook)
 
-One this step is done, the performance numbers and subsequent visualizations are visible. Performance numbers are displayed as follows:
+One this step is done, the performance numbers and subsequent visualizations are visible.
 
 **Performance Numbers**
 ```
@@ -119,7 +119,7 @@ Speedup (cuDF): 70.023X
 (and so on)
 ```
 
-**Visualizations**
+**Visualizations** <br />
 The visualizations are below. The description of each visualization is in Step 5 of the Running the Tool - Command Line (CLI) section:
 
 ![cuDF vs. pandas Visualization 1](https://github.com/yamnihcg/cuDFvPandas/blob/master/cudf_vs_pandas_p1.png)
