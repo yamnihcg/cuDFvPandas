@@ -96,8 +96,28 @@ In the Jupyter Notebook, set num_months = 1 and operation = 'all' in the appropr
 
 One this step is done, the performance numbers and subsequent visualizations are visible. Performance numbers are displayed as follows:
 
+Loading data through cudf ...
+Elapsed time: 49.0966 seconds
+Loading data through pandas ...
+Elapsed time: 143.9255 seconds
+Data Loading Speedup (cuDF): 2.931X
+Pandas: Applying a numerical function (converting mi to km):
+Elapsed time: 2.3508 seconds
+CuDF: Applying a numerical function (converting mi to km):
+Elapsed time: 0.0802 seconds
+Speedup: 29.307X
+Pandas: Applying an aggregate function:
+Elapsed time: 0.0594 seconds
+CuDF: Applying an aggregate function:
+Elapsed time: 0.0008 seconds
+Speedup (cuDF): 70.023X
+.
+.
+.
+(and so on)
 
-Visualizations are as follows:
+
+The performance visualizations are below. The description of each visualization is in Step 5 of the Running the Tool - Command Line (CLI) section:
 
 ![cuDF vs. pandas Visualization 1](https://github.com/yamnihcg/cuDFvPandas/blob/master/cudf_vs_pandas_p1.png)
 ![cuDF vs. pandas Visualization 2](https://github.com/yamnihcg/cuDFvPandas/blob/master/cudf_vs_pandas_p2.png)
