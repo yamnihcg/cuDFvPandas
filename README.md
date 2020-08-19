@@ -90,5 +90,7 @@ Using the CLI, the command would look like:
 python cudf_benchmarking_v2.py -num_months 1 -operation all
 ```
 
+In the Jupyter Notebook, set num_months = 1 and operation = 'all' in the appropriate cell (refer to Step 3 in Running the Tool - Jupyter Notebook)
+
 
 
