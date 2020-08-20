@@ -59,8 +59,11 @@ To proceed to the next steps, these instructions that you have the following alr
 | merge | Perform an inner join on two DataFrames |
 | all | Perform all operations above (w/ the exception of cdf) |
 
-4. Run the following command in your terminal. (months) and (operation) are the months and operation you decided on in the previous step. 
+4. Run the following command in your terminal. (months) and (operation) are the months and operation you decided on in the previous step. Note: You need to navigate into the cli_files directory before running this command.
+
+```
 python cudf_benchmarking_v2.py -num_months (months) -operation (operation)
+```
 
 5. After running the command, the results show up on the command line. If you entered ‘all’ for the operation, visualizations are also generated. The image filenames of the visualizations as well as what each visualization contains is below: 
 
