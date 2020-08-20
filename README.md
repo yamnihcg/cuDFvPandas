@@ -37,7 +37,7 @@ To proceed to the next steps, these instructions that you have the following alr
 
 ## Running the Tool - Command Line (CLI) 
 
-1. From this repository, download the folder cli_files. The folder contains cudf_benchmarking_v2.py, generate_graphs_v2.py, load_data_v2.py, and rcid_to_meaning.csv. On the left hand side of the JupyterLab window, there is a menu of files. Drag them into the same folder / directory in JupyterLab.
+1. From this repository, download the folder cli_files. The folder contains cudf_benchmarking_v2.py, generate_graphs_v2.py, load_data_v2.py, and rcid_to_meaning.csv. On the left hand side of the JupyterLab window, there is a menu of files. Drag the cli_files folder into this menu.
 
 2. Open a Terminal window in JupyterLab by navigating to the menu bar at the top and selecting File → New → Terminal.
 
