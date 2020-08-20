@@ -125,9 +125,9 @@ Speedup (cuDF): 70.023X
 **Visualizations** <br />
 The visualizations are below. The description of each visualization is in Step 5 of the Running the Tool - Command Line (CLI) section:
 
-![cuDF vs. pandas Visualization 1](https://github.com/yamnihcg/cuDFvPandas/blob/master/cudf_vs_pandas_p1.png)
-![cuDF vs. pandas Visualization 2](https://github.com/yamnihcg/cuDFvPandas/blob/master/cudf_vs_pandas_p2.png)
-![cuDF Speedups](https://github.com/yamnihcg/cuDFvPandas/blob/master/cudf_speedups.png)
+![cuDF vs. pandas Visualization 1](https://github.com/yamnihcg/cuDFvPandas/blob/master/imgs/cudf_vs_pandas_p1.png)
+![cuDF vs. pandas Visualization 2](https://github.com/yamnihcg/cuDFvPandas/blob/master/imgs/cudf_vs_pandas_p2.png)
+![cuDF Speedups](https://github.com/yamnihcg/cuDFvPandas/blob/master/imgs/cudf_speedups.png)
 
 
 
