@@ -29,7 +29,7 @@ To proceed to the next steps, these instructions that you have the following alr
 
 3. Once in the docker container, navigate to the outermost directory (using cd ..) and then run bash /rapids/utils/start_jupyter.sh (refer to image below)
 
-![Docker Command](https://github.com/yamnihcg/cuDFvPandas/blob/master/docker_container_example_run.PNG)
+![Docker Command](https://github.com/yamnihcg/cuDFvPandas/blob/master/imgs/docker_container_example_run.PNG)
 
 4. Visit localhost:8888 or (ip address of your VM):8888 in your browser. An instance of JupyterLab should show up.
 
@@ -81,7 +81,7 @@ python cudf_benchmarking_v2.py -num_months (months) -operation (operation)
 
 3. In this cell (image below) enter the number of months of data and the operation you want to benchmark against. Refer to the Running the Tool - Command Line (CLI) section to double check that your inputs are valid.
 
-![Enter Benchmarking Info](https://github.com/yamnihcg/cuDFvPandas/blob/master/enter_benchmarking_info.PNG)
+![Enter Benchmarking Info](https://github.com/yamnihcg/cuDFvPandas/blob/master/imgs/enter_benchmarking_info.PNG)
 
 ## Example Output - 1 Month of Data 
 
