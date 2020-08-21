@@ -183,20 +183,7 @@ def concatenate_dataframes(nyc_taxi_data, nyc_cudf_taxi_data):
     speedup = round(float(df_time) / float(cudf_time), 5)
     print("Speedup (cuDF): " + str(speedup) + "X")
     
-    '''
-    
-    print("Concatenating Dataframes (Vertically, Stacking) - Dask_cuDF")
-    
-    concat_dask_cudf_timer = Timer()
-    concat_dask_cudf_timer.start()
-    dask_cudf.concat(nyc_dask_cudf_taxi_data)
-    concat_dask_cudf_timer.stop()
-    
-    dask_cudf_time = concat_dask_cudf_timer.total_time
-    
-    speedup = round(float(df_time) / float(dask_cudf_time), 5)
-    print("Speedup (Dask cuDF): " + str(speedup) + "X")
-    '''
+ 
     
 
 #Sort values to get top K entries by column (e.x. top 5 highest values, top 10 lowest values, etc...)
@@ -534,39 +521,7 @@ def main():
             
             # "ld", "rtc", "aggfunc" -> more intensive
             
-            '''
             
-            
-            copy_perf_data_p1 = perf_data 
-            perf_data_p1 = copy_perf_data_p1[copy_perf_data_p1['operation'].isin(["af", "aggfunc", "gb", "dc", "fc", "fnv", "merge"])]
-            library = perf_data_p1['library']
-            colors = ['green' if l == 'cuDF' else 'grey' for l in library]
-            sns_plot_p1 = sns.barplot(x='operation', y='time (in s)', hue='library', data=perf_data_p1, palette=colors, ci=None)
-            plt.title("Pandas/cuDF operation vs. Time - Part I ")
-            sns_plot_p1.figure.savefig("cudf_vs_pandas_p1.png")
-            
-            # cuDF vs. pandas times -> Part II (more intensive operations)
-            
-            copy_perf_data_p2 = perf_data 
-            perf_data_p2 = copy_perf_data_p2[copy_perf_data_p2['operation'].isin(["ld", "rtc", "dd", "gt5"])]
-            library = perf_data_p2['library']
-            colors = ['green' if l == 'cuDF' else 'grey' for l in library]
-            sns_plot_p2 = sns.barplot(x='operation', y='time (in s)', hue='library', data=perf_data_p2, palette=colors, ci=None)
-            plt.title("Pandas/cuDF operation vs. Time - Part II ")
-            sns_plot_p2.figure.savefig("cudf_vs_pandas_p2.png")
-            
-            
-            
-            # Speedups
-            
-            
-            speedups_df = pd.DataFrame(np.array(cudf_barplot_data), columns=['operation', 'speedups (X times faster than pandas)'])
-            speedups_df['speedups (X times faster than pandas)'] = speedups_df['speedups (X times faster than pandas)'].astype(float)
-            colors = ['green' for i in range(len(speedups_df))]
-            sns_plot_speedups = sns.barplot(x='operation', y='speedups (X times faster than pandas)', data=speedups_df, palette=colors, ci=None)
-            plt.title("cuDF Speedup vs. Pandas")
-            sns_plot_speedups.figure.savefig("speedups.png")
-            '''
             
     else:
         print(valid_args)
